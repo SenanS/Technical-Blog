@@ -13,12 +13,14 @@ description:      'A Technical blog documenting my personal and academic pursuit
 url:              https://github.com/SenanS/
 baseurl:          /
 
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate
+  - jekyll-toc
 
 author:
   name:           'Senan Stanley'
 
-paginate:         5
+paginate:         3
 
 # Custom vars
 version:          0.1.0
