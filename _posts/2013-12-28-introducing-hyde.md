@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Introducing Hyde
+title: How to Make a Technical Blog
+subtitle: (with absolutely no Jekyll experience)
+toc: true
 ---
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
