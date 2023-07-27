@@ -147,6 +147,18 @@ abbr[title] {
   border-bottom: 1px dotted #e5e5e5;
 }
 
+aside {
+  width: 35%;
+  padding: 10px;
+  padding-bottom:0%;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+  display: block;
+}
+
 /* Code */
 code,
 pre {
