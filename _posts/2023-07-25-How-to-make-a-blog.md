@@ -12,8 +12,8 @@ Built using [Jekyll](https://jekyllrb.com/docs/front-matter/) & [Hyde](https://h
 
 1. Fork the [Hyde Repository](https://github.com/poole/hyde) (or my repo).
 2. On your new Github Repository: navigate to to *Settings*>*Code and Automation*>*Pages*.
-3. Build and deploy a Github Page from the main branch & Save. ![Build-deploy](/public/Tech-Blog=Build-deploy.png){:class="img-responsive"}
-4. In the Actions tab of the repo, you can view the status of the deployed page & debug if there are any issues. ![Actions-Deploy](/public/Tech-Blog=Actions-deploy.png){:class="img-responsive"}
+3. Build and deploy a Github Page from the main branch & Save. ![Build-deploy]({{ site.baseurl }}/public/Tech-Blog=Build-deploy.png){:class="img-responsive"}
+4. In the Actions tab of the repo, you can view the status of the deployed page & debug if there are any issues. ![Actions-Deploy]({{ site.baseurl }}/public/Tech-Blog=Actions-deploy.png){:class="img-responsive"}
 
 ## Local Testing
 
@@ -36,7 +36,7 @@ You may encounter some `_config.yml` errors using:
 - `relative_permalinks: true`
 	- Change to `relative_permalinks: false`
 - Adding `plugins: [jekyll-paginate]`
-- I also experienced issues with the addresses in the `head.html`, with the CSS links!![URLs](/public/Tech-Blog=URLs.png)
+- I also experienced issues with the addresses in the `head.html`, with the CSS links!![URLs]({{ site.baseurl }}/public/Tech-Blog=URLs.png)
 	- This was fixed by adding or removing a **/** before `public` in the URL.
 
 #### Customisation
