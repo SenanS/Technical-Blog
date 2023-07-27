@@ -2,7 +2,6 @@
 layout: post
 title: How to Make a Technical Blog
 subtitle: (with absolutely no Jekyll experience)
-toc: true
 ---
 
 <aside><p>Over the last 6 years I've added some wonderful code projects to my Github. I wanted to create a blog to showcase some of the writing, documentation and stories behind my code and other passion projects I've been involved in.</p></aside>
