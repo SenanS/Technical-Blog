@@ -9,7 +9,7 @@ relative_permalinks: false
 
 # Setup
 title:            Senan's Blog
-description:      'A Technical blog documenting my personal and academic pursuits.'
+description:      'A technical blog documenting my personal and academic pursuits.'
 url:              https://github.com/SenanS/
 baseurl:          /
 
