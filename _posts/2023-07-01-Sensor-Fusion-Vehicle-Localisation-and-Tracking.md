@@ -13,7 +13,7 @@ Using multiple sensors compensates for the limitations of individual sensors, of
 In vehicle tracking, this means using various external/internal sensors to precisely determine a vehicle's 
 position and movement.</p>
 
-<h4>What is The Project</h3>
+<h4>What is The Project</h4>
 <p>In this project, an eight-node sensor network will be used for vehicle tracking. 
 This project provides a practical example of how sensor fusion can be implemented effectively.</p>
 
@@ -89,4 +89,5 @@ The principles and methods outlined can be applied to a multitude of different s
 </p>
 
 ----
+
 This post was inspired by the GitHub repo [Sensor-Fusion_Vehicle-Localisation-and-Tracking](https://github.com/SenanS/Sensor-Fusion_Vehicle-Localisation-and-Tracking) 
