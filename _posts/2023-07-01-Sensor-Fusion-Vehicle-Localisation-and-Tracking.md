@@ -30,7 +30,7 @@ This project provides a practical example of how sensor fusion can be implemente
 	<li><strong>Setup</strong>: Randomly place the same microphones around a track.</li>
 	<li><strong>Action</strong>: Collect data as the vehicle moves.</li>
 </ol>
-![Build-deploy]({{ site.baseurl }}/public/SenFu-Tracking/TrackMap.png){:class="img-responsive"}
+![Build-deploy]({{ site.baseurl }}/public/SenFu-Tracking/vehicle-track){:class="img-responsive"}
 
 <h3>Step 2: Building Sensor Models</h3>
 A time difference of arrival (TDOA) sensor network configuration knows the time of arrival of a measurement, but not the broadcast time.
