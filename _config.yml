@@ -11,7 +11,7 @@ relative_permalinks: false
 title:            Senan's Blog
 description:      'A technical blog documenting my personal pursuits.'
 url:              https://github.com/SenanS/
-baseurl:          /
+baseurl:          /Technical-Blog
 
 plugins: 
   - jekyll-paginate
