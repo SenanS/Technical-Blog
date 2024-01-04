@@ -57,7 +57,8 @@ The most enjoyable part of this project was creating a state dependant probabili
     </ul>
 </p></aside>
 
-<pre><code>
+```C
+{% raw %}
 // Probability of output:       A,    B,    C,    X,    F},
 int outputProbability[5][5] = {{80,   10,   7,    3,    0},
                                {30,   50,   15,   5,    0},
@@ -65,8 +66,8 @@ int outputProbability[5][5] = {{80,   10,   7,    3,    0},
                                {0,    10,   85,   3,    2},
                                {0,    0,    0,    0,    100}
                               };
-</pre></code>
-
+{% endraw %}
+```
 I believe the probability distribution helped to keep the task rewards unpredictable, and therefore keeping the Dopamine Box re-usable.
 
 
