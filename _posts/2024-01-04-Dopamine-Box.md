@@ -25,7 +25,12 @@ By integrating an amplifier with the Arduino, the box produces a distinct sound 
 I chose sounds from a variety of sources, mostly game franchises like Mario, Sonic, Legend of Zelda, etc.
 I broke the 23 sounds into 5 categories, based on the expected dopamine hit (i.e. the [mario coin noise](https://www.youtube.com/watch?v=mQSmVZU5EL4) was a category 1, while the [Zelda chest noise](https://www.youtube.com/watch?v=5VRr9NG7RE0) was a category 5)
 
-{% include embed-audio.html src="{{ site.baseurl }}/public/Dopamine/a2.wav" %}
+[//]: # ({% include embed-audio.html src='{{ site.baseurl }}/public/Dopamine/a2.wav' %})
+
+ <audio controls>
+    <source src="{{ site.baseurl }}/public/Dopamine/a2.wav" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 
 ```arduino
 // Check if a task is completed
