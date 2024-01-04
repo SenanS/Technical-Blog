@@ -84,4 +84,13 @@ The category probabilities are treated like a number line, where a randomised va
 
 [Board Schema](Schema.pdf) | [Stripboard Schema](Stripboard.pdf)
 :-------------------------:|:-------------------------:
-![Schema](https://user-images.githubusercontent.com/30498489/143792116-d8c3bf85-45dd-46d5-a239-992edfecd1a4.jpg) | ![Stripboard](https://github.com/SenanS/Dopamine-Box/assets/30498489/4344cf08-0fb6-437d-9f40-663cb631e6e3)
+![Schema](https://user-images.githubusercontent.com/30498489/143792116-d8c3bf85-45dd-46d5-a239-992edfecd1a4.jpg){:class="img-responsive"} | ![Stripboard](https://github.com/SenanS/Dopamine-Box/assets/30498489/4344cf08-0fb6-437d-9f40-663cb631e6e3){:class="img-responsive"}
+
+## Conclusions
+The Dopamine Box project was an enriching journey, blending electronics, programming, and psychological elements to create a unique, one-of-a-kind box? tool? e-waste? 
+
+At some point, I'd like to update it with a nicer chassis, perhaps an internet connection to pull hundreds of reward sounds & more enriching feedback! 
+![DopBoxLit](https://raw.githubusercontent.com/SenanS/Dopamine-Box/main/Images/Box%20Lit.jpg){:class="img-responsive"}
+
+#### References
+All schematics, code & 3D model files can be found in the [Github repo](https://github.com/SenanS/Dopamine-Box/tree/main).
