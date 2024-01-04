@@ -1,3 +1,5 @@
+# [See a blog-in-blog walkthrough here](https://senans.github.io/Technical-Blog//2023/07/25/How-to-make-a-blog/)
+
 # Hyde
 
 Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content. It's based on [Poole](http://getpoole.com), the Jekyll butler.
