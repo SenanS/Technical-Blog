@@ -11,10 +11,11 @@ This project was more than just a tool for self-motivation; I used it as a sprin
 The heart of this project lies in its `Arduino` code, which can be found in the [Dopamine-Box.ino file](https://github.com/SenanS/Dopamine-Box/blob/main/Dopamine-Box.ino). 
 This code is responsible for the operational logic of the box, from tracking the flip switches to triggering the lights and sounds upon task completion.
 
-### Key Features of the Code:
+### Key Interactions for the Project:
 1. **Task Tracking:** Utilizes digital I/O pins to monitor the state of each flip switch.
 2. **Audio Feedback:** Leverages an audio module to play sounds when a task is completed.
 3. **Visual Feedback:** Controls an array of LEDs to visually indicate task progress and completion.
+4. **Haptic Feedback:** Who doesn't enjoy the satisfying *snap* of a throw switch.
 
 ### Task Tracking:
 The task completion triggers logic was as simple as it comes, the switches were polled in the main loop, waiting for an increase in the state count (number of switches flipped).
@@ -46,7 +47,7 @@ Trying to achieve the highest signal gain while minimising the noise was an inte
 
 ### Probability Distributions for Happiness Contributions
 <aside><p>
-    The five categories were 
+    The five categories were :
     <ul>
         <li>Dopamine Level 1 (A)</li>
         <li>Dopamine Level 2 (B)</li>
@@ -71,6 +72,11 @@ int outputProbability[5][5] = {{80,   10,   7,    3,    0},
                               };
 {% endraw %}
 ```
+The columns of the above matrix represent the 5 categories of Dopamine level, while the rows represented the state count (cumulative number of switches flipped).
+
+When a new switch is flipped, the corresponding state row is selected (eg. ```state = 2, outputArray = {5, 70, 22, 3, 0}```).
+The category probabilities are treated like a number line, where a randomised value is generated between 1-100 & the audio category chosen is based on the location of the randomised point on the number line.  
+![Audio Category]({{ site.baseurl }}/public/Dopamine/RandVal.png){:class="img-responsive"}
 
 ## Electronics
 
