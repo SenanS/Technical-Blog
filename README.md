@@ -1,4 +1,4 @@
-# [See a blog-in-blog tutorial here](https://senans.github.io/Technical-Blog//2023/07/25/How-to-make-a-blog/)
+# [See a blog-in-blog walkthrough here](https://senans.github.io/Technical-Blog//2023/07/25/How-to-make-a-blog/)
 
 # Hyde
 
