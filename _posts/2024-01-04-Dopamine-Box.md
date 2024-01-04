@@ -26,29 +26,48 @@ I chose sounds from a variety of sources, mostly game franchises like Mario, Son
 I broke the 23 sounds into 5 categories, based on the expected dopamine hit. 
 
 <aside><p>
-    For my brain, the [mario coin noise](https://www.youtube.com/watch?v=mQSmVZU5EL4) was a category 1 dopamine hit. 
+    For my brain, the <a href="https://www.youtube.com/watch?v=mQSmVZU5EL4">Mario coin noise</a> was a category 1 dopamine hit. 
     <audio controls>
         <source src="{{ site.baseurl }}/public/Dopamine/a2.wav" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
-    While the [Zelda chest noise](https://www.youtube.com/watch?v=5VRr9NG7RE0) was a category 5.
+    While the <a href="https://www.youtube.com/watch?v=5VRr9NG7RE0">Zelda chest noise</a> was a category 5.
     <audio controls>
-        <source src="{{ site.baseurl }}/public/Dopamine/f1.wav" type="audio/mpeg">
+        <source src="{{ site.baseurl }}/public/Dopamine/f0.wav" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 </p></aside>
 
+### Audio Amplification
+The audio was pre-loaded onto an SD card (I fear to share it all for copywrite infringement).
+In my first foray into audio amplification I used an [LM386 Low Voltage Power Amp](https://www.ti.com/lit/ds/symlink/lm386.pdf) and a recycled speaker I'd harvested from an old device.
+Tuning the circuit was definitely the most difficult part of this project.
+Trying to achieve the highest signal gain while minimising the noise was an interesting process.
 
+### Probability Distributions for Happiness Contributions
+The most enjoyable part of this project was creating a state dependant probability distribution to play the 5 categories of feedback sound.
+<aside><p>
+    The five categories were 
+    <ul>
+        <li>Dopamine Level 1 (A)</li>
+        <li>Dopamine Level 2 (B)</li>
+        <li>Dopamine Level 3 (C)</li>
+        <li>Special Sounds   (X)</li>
+        <li>Finale Sounds    (F)</li>
+    </ul>
+</p></aside>
 
 ```arduino
-// Check if a task is completed
-if (digitalRead(taskSwitch) == HIGH) {
-    // Play completion sound
-    playSound(taskCompleteSound);
-    // Illuminate corresponding LED
-    digitalWrite(ledPin, HIGH);
-}
+// Probability of output:     A,    B,    C,    X,    F},
+int outputProbability[5][5]={{80,   10,   7,    3,    0},
+                             {30,   50,   15,   5,    0},
+                             {5,    70,   22,   3,    0},
+                             {0,    10,   85,   3,    2},
+                             {0,    0,    0,    0,    100}
+                            };
 ```
+I believe the probability distribution helped to keep the task rewards unpredictable, and therefore keeping the Dopamine Box re-usable.
+
 
 ## Electronics
 
