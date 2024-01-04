@@ -90,4 +90,4 @@ The principles and methods outlined can be applied to a multitude of different s
 
 ----
 
-This post was inspired by the GitHub repo [Sensor-Fusion_Vehicle-Localisation-and-Tracking](https://github.com/SenanS/Sensor-Fusion_Vehicle-Localisation-and-Tracking) 
+This post was based on my [GitHub repo](https://github.com/SenanS/Sensor-Fusion_Vehicle-Localisation-and-Tracking) 

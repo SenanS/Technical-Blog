@@ -40,7 +40,7 @@ I broke the 23 sounds into 5 categories, based on the expected dopamine hit.
 </p></aside>
 
 ### Audio Amplification
-The audio was pre-loaded onto an SD card (I fear to share it all for copywrite infringement).
+The audio was pre-loaded onto an SD card (I fear to share it all for copyright infringement).
 In my first foray into audio amplification I used an [LM386 Low Voltage Power Amp](https://www.ti.com/lit/ds/symlink/lm386.pdf) and a recycled speaker I'd harvested from an old device.
 Tuning the circuit was definitely the most difficult part of this project.
 Trying to achieve the highest signal gain while minimising the noise was an interesting process.
@@ -92,5 +92,6 @@ The Dopamine Box project was an enriching journey, blending electronics, program
 At some point, I'd like to update it with a nicer chassis, perhaps an internet connection to pull hundreds of reward sounds & more enriching feedback! 
 ![DopBoxLit](https://raw.githubusercontent.com/SenanS/Dopamine-Box/main/Images/Box%20Lit.jpg){:class="img-responsive"}
 
-#### References
+---
+
 All schematics, code & 3D model files can be found in the [Github repo](https://github.com/SenanS/Dopamine-Box/tree/main).
