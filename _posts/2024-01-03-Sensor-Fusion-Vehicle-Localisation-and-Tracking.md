@@ -68,7 +68,7 @@ It's performed in two sections, the Predictive state and the And the Update stag
 Corrected estimation is updated & the Covariance is updated.
 
 
-![Build-deploy]({{ site.baseurl }}/public/SenFu-Tracking/EKF.png){:class="img-responsive"}
+![Build-deploy]({{ site.baseurl }}public/SenFu-Tracking/EKF.png){:class="img-responsive"}
 
 The EKF tracking here obviously underperforms compared to both the track and the WLS estimates.
 
