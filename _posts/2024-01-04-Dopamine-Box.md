@@ -79,6 +79,8 @@ The category probabilities are treated like a number line, where a randomised va
 ![Audio Category]({{ site.baseurl }}/public/Dopamine/RandVal.png){:class="img-responsive"}
 
 ## Electronics
+ Finally, all was left was to select components, breadboard prototyping & stripboard soldering.
+
 
 [Board Schema](Schema.pdf) | [Stripboard Schema](Stripboard.pdf)
 :-------------------------:|:-------------------------:
