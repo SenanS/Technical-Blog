@@ -45,7 +45,6 @@ Tuning the circuit was definitely the most difficult part of this project.
 Trying to achieve the highest signal gain while minimising the noise was an interesting process.
 
 ### Probability Distributions for Happiness Contributions
-The most enjoyable part of this project was creating a state dependant probability distribution to play the 5 categories of feedback sound.
 <aside><p>
     The five categories were 
     <ul>
@@ -56,6 +55,10 @@ The most enjoyable part of this project was creating a state dependant probabili
         <li>Finale Sounds    (F)</li>
     </ul>
 </p></aside>
+
+The most enjoyable part of this project was creating a state dependant probability distribution to play the 5 categories of feedback sound.
+
+I believe the probability distribution helped to keep the task rewards unpredictable, and therefore keeping the Dopamine Box re-usable.
 
 ```C
 {% raw %}
@@ -68,8 +71,6 @@ int outputProbability[5][5] = {{80,   10,   7,    3,    0},
                               };
 {% endraw %}
 ```
-I believe the probability distribution helped to keep the task rewards unpredictable, and therefore keeping the Dopamine Box re-usable.
-
 
 ## Electronics
 
