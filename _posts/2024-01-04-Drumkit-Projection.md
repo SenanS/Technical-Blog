@@ -21,12 +21,18 @@ The Arduino, a master of sensing inputs, waits for a tap on the capacitive switc
 Once it gets the signal, it sends the info over to the Processing sketch via serial communication.
 The Arduino code is particularly simple, just sampling the capacitive switches and sending their state to Processing.
 
-![Coppered Wall](https://github.com/SenanS/Interactive-Drumkit/blob/main/Media/Wall-Coppered.jpeg){:class="img-responsive"}
+![Coppered Wall](https://raw.githubusercontent.com/SenanS/Interactive-Drumkit/main/Media/Wall-Coppered.jpeg){:class="img-responsive"}
 
 The Processing sketch is where the visual and auditory magic happens. 
 It creates the projected image of the drum-kit on the wall and plays the corresponding drum sounds. 
 And after some fiddling with wire the project is complete. 
 The drums are waiting.
+
+<aside> 
+For those who haven't used [Processing](https://processing.org/) I would greatly recommend it.
+It's fantastic tool for coding visual data representations, games or interfaces.
+Above all It is an easy, beautiful language.
+</aside>
 
 <iframe
     width="100%"
