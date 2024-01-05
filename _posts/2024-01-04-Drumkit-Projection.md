@@ -23,16 +23,20 @@ The Arduino code is particularly simple, just sampling the capacitive switches a
 
 ![Coppered Wall](https://raw.githubusercontent.com/SenanS/Interactive-Drumkit/main/Media/Wall-Coppered.jpeg){:class="img-responsive"}
 
+<aside>
+    <p>
+    For those who haven't used <a href="https://processing.org">Processing</a> I would greatly recommend it.
+    It's fantastic tool for coding visual data representations, games or interfaces.
+    Above all It is an easy, beautiful language.
+    </p>
+</aside>
+
+<p>
 The Processing sketch is where the visual and auditory magic happens. 
 It creates the projected image of the drum-kit on the wall and plays the corresponding drum sounds. 
 And after some fiddling with wire the project is complete. 
 The drums are waiting.
-
-<aside> 
-For those who haven't used [Processing](https://processing.org/) I would greatly recommend it.
-It's fantastic tool for coding visual data representations, games or interfaces.
-Above all It is an easy, beautiful language.
-</aside>
+</p>
 
 <iframe
     width="100%"
