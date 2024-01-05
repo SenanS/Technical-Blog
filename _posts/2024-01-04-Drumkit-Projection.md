@@ -3,37 +3,18 @@ layout: post
 title: "Tap-Tap-Tapestry: A Wall-Projected Interactive DrumKit"
 subtitle: 
 ---
+<div class="container" style="display: flex; flex-wrap: wrap; align-items: center;">
+    <img src="{{ site.baseurl }}/public/DrumKit/Drumkit.png" align="left" class="align-left" alt="Drumkit-header" width="65%">
 
-<iframe 
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/8VHfrf0_ESo?si=aWePd3thH20UroEy" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; 
-        autoplay; 
-        clipboard-write; 
-        encrypted-media; 
-        gyroscope; 
-        picture-in-picture; 
-        web-share"> Apologies, your browser doesn't support this video :(
-</iframe>
-
-<div>
-    <div width="50%"><img src="{{ site.baseurl }}/public/DrumKit/Drumkit.png" align="left" class="align-left" alt="Drumkit-header"></div>
-    <div>
+    <p style="flex: 1; margin-left: 20px" class="align-right">
         Ever fancied a drum-kit that won't take up half your living room, while still annoying your neighbours?
         Well, here's a solution that might just hit the right note: an interactive, wall-projected drum-kit.
-        A nifty virtual kit that's a mix of clever electronics and a dash of whimsy.
-    </div>
+        A nifty virtual kit that's a mix of clever electronics, lots of copper tape and a sprinkle of whimsy.
+    </p>
 </div>
 
-<img src="{{ site.baseurl }}/public/DrumKit/Drumkit.png" align="left" class="align-left" alt="Drumkit-header" width="50%">
-Ever fancied a drum-kit that won't take up half your living room, while still annoying your neighbours?
-Well, here's a solution that might just hit the right note: an interactive, wall-projected drum-kit.
-A nifty virtual kit that's a mix of clever electronics and a dash of whimsy.
 
-## How it Works: A Symphony of Hardware and Software
+## <br />How it Works: A Symphony of Hardware and Software
 
 The heart of this musical contraption is a set of capacitive switches mounted on a wall. 
 These switches, more sensitive than a musician's ego, are controlled by an Arduino. 
@@ -116,3 +97,19 @@ In Conclusion: Simple, Silly, and Satisfying
 This project isn't breaking new ground in technology or art, but it's a delightful blend of both. 
 It's a testament to how a simple idea, some basic coding, and a bit of hardware can lead to hours of amusement. 
 Whether you're a tinkerer, a music enthusiast, or just someone who likes hitting walls, this project hits all the right notes.
+
+
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/8VHfrf0_ESo?si=aWePd3thH20UroEy"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer;
+    autoplay;
+    clipboard-write;
+    encrypted-media;
+    gyroscope;
+    picture-in-picture;
+    web-share"> Apologies, your browser doesn't support this video :(
+</iframe>
