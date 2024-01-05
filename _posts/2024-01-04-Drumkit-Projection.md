@@ -1,3 +1,8 @@
+---
+layout: default
+title: Tap-Tap-Tapestry: A Wall-Projected Interactive DrumKit
+subtitle: 
+---
 
 <iframe 
     width="560"
@@ -14,7 +19,6 @@
         web-share"> Apologies, your browser doesn't support this video :(
 </iframe>
 
-# Tap-Tap-Tapestry: A Wall-Projected Interactive DrumKit
 ![Drumkit-header]({{ site.baseurl }}/public/DrumKit/Drumkit.png){:class="img-responsive"}
 
 Ever fancied a drumkit that won't take up half your living room, while still annoying your neighbours? 
