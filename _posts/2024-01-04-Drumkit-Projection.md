@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Tap-Tap-Tapestry: A Wall-Projected Interactive DrumKit"
 image: /public/DrumKit/Drumkit.png
 subtitle: 
