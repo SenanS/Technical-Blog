@@ -23,7 +23,7 @@ The Arduino code is particularly simple, just sampling the capacitive switches a
 
 ![Coppered Wall](https://raw.githubusercontent.com/SenanS/Interactive-Drumkit/main/Media/Wall-Coppered.jpeg){:class="img-responsive"}
 
-<aside>
+<aside style="width: 39.5%">
     <p>
     For those who haven't used <a href="https://processing.org">Processing</a> I would greatly recommend it.
     It's fantastic tool for coding visual data representations, games or interfaces.
