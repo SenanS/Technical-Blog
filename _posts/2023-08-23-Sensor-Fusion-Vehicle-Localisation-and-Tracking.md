@@ -1,4 +1,9 @@
-<h2>Exploring Sensor Fusion in Vehicle Localisation and Tracking</h2>
+---
+layout: post
+title: "Exploring Sensor Fusion in Vehicle Localisation and Tracking"
+subtitle: 
+---
+
 <p>
 Within this blog we'll explore an application of sensor fusion in vehicle localisation and tracking. 
 It'll walk through the key concepts, methods, and reasoning behind the project. 

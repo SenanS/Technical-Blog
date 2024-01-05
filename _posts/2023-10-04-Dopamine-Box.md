@@ -1,4 +1,9 @@
-# The Dopamine Box
+---
+layout: post
+title: "The Dopamine Box"
+subtitle: 
+---
+
 A flip switch circuit for encouraging you to complete tasks, loaded with lights and achievement sounds.
 
 ![The Dopamine Box](https://raw.githubusercontent.com/SenanS/Dopamine-Box/main/Images/Box%20Front.jpg)
