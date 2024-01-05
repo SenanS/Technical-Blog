@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Tap-Tap-Tapestry: A Wall-Projected Interactive DrumKit"
-image: {{ site.baseurl }}/public/DrumKit/Drumkit.png
+image: /public/DrumKit/Drumkit.png
 subtitle: 
 ---
 
