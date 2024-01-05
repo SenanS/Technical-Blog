@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tap-Tap-Tapestry: A Wall-Projected Interactive DrumKit
+title: "Tap-Tap-Tapestry: A Wall-Projected Interactive DrumKit"
 subtitle: 
 ---
 
