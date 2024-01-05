@@ -19,7 +19,18 @@ subtitle:
         web-share"> Apologies, your browser doesn't support this video :(
 </iframe>
 
-![Drumkit-header]({{ site.baseurl }}/public/DrumKit/Drumkit.png){: style="float: left"; margin-right: 10em; height="25%" width="25%"} Ever fancied a drum-kit that won't take up half your living room, while still annoying your neighbours? Well, here's a solution that might just hit the right note: an interactive, wall-projected drum-kit. A nifty virtual kit that's a mix of clever electronics and a dash of whimsy.
+<div style="clear: both;">
+    <div style="float: left; margin-right 1em;">
+        <img src="{{ site.baseurl }}/public/DrumKit/Drumkit.png" alt="Drumkit-header">
+    </div>
+    <div>
+        <p>
+            Ever fancied a drum-kit that won't take up half your living room, while still annoying your neighbours? 
+            Well, here's a solution that might just hit the right note: an interactive, wall-projected drum-kit. 
+            A nifty virtual kit that's a mix of clever electronics and a dash of whimsy.
+        </p>
+    </div>
+</div>
 
 ## How it Works: A Symphony of Hardware and Software
 
