@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Tap-Tap-Tapestry: A Wall-Projected Interactive DrumKit"
-url: {{baseurl}}/Drumkiturl
 subtitle: 
 ---
 
