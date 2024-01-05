@@ -62,7 +62,7 @@ Here it's used for snapshot localisation, offering a practical approach to track
 Above are the localisation results using WLS with both TDOA networks. 
 As is evident, they are poor approximations of the track. 
 The errors were caused by sensors skipping measurement publish intervals, only to later re-align themselves.<br/>
-The fix this the data was properly aligned, the new WLS comparisons are far more faithful to the ground truth.
+To fix this the data was properly aligned, the new WLS comparisons are far more faithful to the ground truth.
 
 ![Build-deploy]({{ site.baseurl }}/public/SenFu-Tracking/WLS2.png){:class="img-responsive"}
  
