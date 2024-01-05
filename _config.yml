@@ -20,7 +20,7 @@ plugins:
 author:
   name:           'Senan Stanley'
 
-paginate:         3
+paginate:         5
 
 # Custom vars
 version:          0.1.0
