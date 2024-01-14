@@ -28,7 +28,7 @@ This is achieved by defining a trapezoidal AOI based on preset coefficients.
 channels. The Sobel–Feldman operator is then applied to highlight edges.
 3. **HSL Conversion and Thresholding:** Simultaneously, the BGR image is converted to a Hue-Luminance-Saturation (HSL) representation. 
 The luminance is thresholded to accentuate the white or yellow lane markings, rather than tyre marks or fallen branches.
-4. **Combination:** The HLS image is converted to greyscale and both images are logically ANDed together.
+4. **Combination:** The HLS image is converted to greyscale and both images are logically ANDed together. Best of both.
 5. **Blurring, Dilating and Eroding:** The combined image is blurred, converted to a binary image and a series of erosion and dilation operations are performed.
 These morphological operations are effective in removing artefacts and noise remaining in the image, "opening" it.
 6. **Canny Edge Detector:** Finally, the image is ready for the Canny edge detector, this will help to find lines in the image & is the last step before lane detection.
@@ -36,7 +36,7 @@ These morphological operations are effective in removing artefacts and noise rem
 ![Pre-Processing Flow]({{ site.baseurl }}/public/LaneDet/preproc.png){:class="img-responsive"}
 
 ### Lane Detection Mechanics
-Post pre-processing, the Hough Transform algorithm comes into play
+Post pre-processing, the Hough Transform algorithm comes into play..
 * It identifies continuous lines in the image, discerning potential lane markings based on their slopes and continuity.
 * Hough lines were discarded as probable lane markings using a trapezoidal bounded filtering method.
 * Finally the lane lines were chosen based on the slopes and position in relation to the vehicle.
@@ -51,9 +51,10 @@ under complex road conditions.
 Though, it's still relevant and helpful to understand and implement classical methods of computer vision.
 
 There are a plethora of methods to improve this algorithm, the obvious ones to me are to:
-* Dynamic AOI - create an area of interest based only on the road in front.
-* Memory based lane markings - The estimation of lane markings based on expected road rules & previous frame experiences. 
-This could be particularly useful for Irish roads with faded & occluded boundaries.
+* Dynamic AOI - create an area of interest based only on the road in front. 
+This would help when changing lanes, pulling onto a road & allow for data from different angles/ vehicles.
+* Memory based lane markings - The estimation of lane markings based on expected road rules & immediately previous frame experiences. 
+This could be particularly useful for the many Irish roads with faded & occluded boundaries.
 
 
 Other ongoing research and projects are pushing the envelope in lane detection accuracy and robustness [^1].
