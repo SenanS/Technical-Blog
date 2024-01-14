@@ -54,9 +54,9 @@ Trying to achieve the highest signal gain while minimising the noise was an inte
 <aside><p>
     The five categories were :
     <ul>
-        <li>Dopamine Level 1 (A)</li>
-        <li>Dopamine Level 2 (B)</li>
-        <li>Dopamine Level 3 (C)</li>
+        <li>Achievement Level 1 (A)</li>
+        <li>Achievement Level 2 (B)</li>
+        <li>Achievement Level 3 (C)</li>
         <li>Special Sounds   (X)</li>
         <li>Finale Sounds    (F)</li>
     </ul>
